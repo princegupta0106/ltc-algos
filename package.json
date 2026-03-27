@@ -1,6 +1,6 @@
 {
   "name": "ltc-algos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A collection of usable LeetCode problem solutions as utility functions and algorithms.",
   "main": "index.cjs",
   "module": "index.js",
