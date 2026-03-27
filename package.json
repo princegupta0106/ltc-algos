@@ -1,16 +1,37 @@
 {
   "name": "ltc-algos",
-  "version": "1.0.0",
-  "description": "A collection of usable LeetCode problem solutions as utility functions and algorithms which you can direcly use for solving a problem or using in a real project where it have bigger problems .",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "A collection of usable LeetCode problem solutions as utility functions and algorithms.",
+  "main": "index.cjs",
+  "module": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princegupta0106/ltc-algos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/princegupta0106/ltc-algos/issues"
+  },
+  "homepage": "https://github.com/princegupta0106/ltc-algos#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test"
   },
   "keywords": [
     "leetcode",
     "algorithms",
-    "twosum"
+    "twosum",
+    "dsa",
+    "interview-prep"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "Prince Gupta",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }

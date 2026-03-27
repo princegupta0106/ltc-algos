@@ -21,4 +21,4 @@ function twoSum(nums, target) {
   return [];
 }
 
-export default twoSum;
+module.exports = twoSum;

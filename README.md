@@ -5,10 +5,21 @@ A library containing reusable algorithms and solutions from popular LeetCode pro
 ## Installation
 
 ```bash
-npm install leetcode-utility-functions
+npm install ltc-algos
 ```
 
 ## Usage
+
+### Using ES Modules (ESM - `import`)
+
+```javascript
+import { twoSum, maxProfit, containsDuplicate, isAnagram } from "ltc-algos";
+
+// Two Sum
+console.log(twoSum([2, 7, 11, 15], 9)); // [0, 1]
+```
+
+### Using CommonJS (CJS - `require`)
 
 ```javascript
 const {
@@ -16,10 +27,11 @@ const {
   maxProfit,
   containsDuplicate,
   isAnagram,
-} = require("leetcode-utility-functions");
+} = require("ltc-algos");
 
 // Two Sum
 console.log(twoSum([2, 7, 11, 15], 9)); // [0, 1]
+```
 
 // Best Time to Buy and Sell Stock
 console.log(maxProfit([7, 1, 5, 3, 6, 4])); // 5
@@ -29,6 +41,7 @@ console.log(containsDuplicate([1, 2, 3, 1])); // true
 
 // Valid Anagram
 console.log(isAnagram("anagram", "nagaram")); // true
+
 ```
 
 ## Available Functions
@@ -48,3 +61,4 @@ Given an integer array `nums`, returns `true` if any value appears at least twic
 ### `isAnagram(s, t)`
 
 Given two strings `s` and `t`, returns `true` if `t` is an anagram of `s`, and `false` otherwise.
+```

@@ -24,4 +24,4 @@ function maxProfit(prices) {
   return maxProfit;
 }
 
-export default maxProfit;
+module.exports = maxProfit;

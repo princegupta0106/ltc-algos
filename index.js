@@ -1,11 +1,6 @@
-const twoSum = require("./src/twoSum");
-const maxProfit = require("./src/maxProfit");
-const containsDuplicate = require("./src/containsDuplicate");
-const isAnagram = require("./src/isAnagram");
+import twoSum from "./src/twoSum.js";
+import maxProfit from "./src/maxProfit.js";
+import containsDuplicate from "./src/containsDuplicate.js";
+import isAnagram from "./src/isAnagram.js";
 
-module.exports = {
-  twoSum,
-  maxProfit,
-  containsDuplicate,
-  isAnagram,
-};
+export { twoSum, maxProfit, containsDuplicate, isAnagram };

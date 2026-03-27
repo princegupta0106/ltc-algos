@@ -19,4 +19,4 @@ function containsDuplicate(nums) {
   return false;
 }
 
-export default containsDuplicate;
+module.exports = containsDuplicate;
