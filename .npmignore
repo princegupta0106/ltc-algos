@@ -1,0 +1,5 @@
+.github/
+tests/
+.env
+.DS_Store
+*.log

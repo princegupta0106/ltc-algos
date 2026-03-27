@@ -1,0 +1,16 @@
+{
+  "name": "ltc-algos",
+  "version": "1.0.0",
+  "description": "A collection of usable LeetCode problem solutions as utility functions and algorithms which you can direcly use for solving a problem or using in a real project where it have bigger problems .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "leetcode",
+    "algorithms",
+    "twosum"
+  ],
+  "author": "",
+  "license": "ISC"
+}
